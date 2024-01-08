@@ -3,7 +3,7 @@ import { ThemeContext } from './ThemeProvider';
 
 
 const LocalThemedBox = () => {
-  const { theme , toggletheme } = useContext(ThemeContext);
+  const { theme , toggleTheme } = useContext(ThemeContext);
 
 return(
     <div style={{width:'200px',height:'200px',border:'2px solid green'}} id="local-themed-box">
